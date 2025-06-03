@@ -89,7 +89,7 @@ export default function Home() {
                     {/* Client 1 */}
                     <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 cursor-pointer">
                         <img
-                            src="/public/client/client1.jpg"
+                            src="/client/client1.jpg"
                             alt="Client 1"
                             className="w-28 h-28 mx-auto rounded-full object-cover mb-5"
                         />
@@ -106,7 +106,7 @@ export default function Home() {
                     {/* Client 2  */}
                     <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 cursor-pointer">
                         <img
-                            src="/public/client/client2.jpg"
+                            src="/client/client2.jpg"
                             alt="Client 2"
                             className="w-28 h-28 mx-auto rounded-full object-cover mb-5 "
                         />
@@ -122,7 +122,7 @@ export default function Home() {
                     {/* Client 3 */}
                     <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 cursor-pointer">
                         <img
-                            src="/public/client/client3.jpg"
+                            src="/client/client3.jpg"
                             alt="Client 3"
                             className="w-28 h-28 mx-auto rounded-full object-cover mb-5"
                         />

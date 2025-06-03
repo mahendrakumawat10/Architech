@@ -46,11 +46,11 @@ export default function About() {
                     </p>
                 </div>
 
-                <div className="grid gap-10 md:grid-cols-3  max-w-7xl mx-auto px-4 flex flex-col items-center text-center">
+                <div className="grid gap-10 md:grid-cols-3 max-w-7xl mx-auto px-4 text-center">
                     {/* Team Member 1 */}
                     <div className="bg-white p-8 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 cursor-pointer ">
                         <img
-                            src="/public/team/team1.jpg"
+                            src="/team/team1.jpg"
                             alt="Team Member 1"
                             className="w-32 h-32 mx-auto rounded-full object-cover mb-5"
                         />
@@ -70,7 +70,7 @@ export default function About() {
                     {/* Team Member 2 */}
                     <div className="bg-white p-8 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 cursor-pointer">
                         <img
-                            src="/public/team/team2.jpg"
+                            src="/team/team2.jpg"
                             alt="Team Member 2"
                             className="w-32 h-32 mx-auto rounded-full object-cover mb-4"
                         />
@@ -90,7 +90,7 @@ export default function About() {
                     {/* Team Member 3 */}
                     <div className="bg-white p-8 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 cursor-pointer">
                         <img
-                            src="/public/team/team3.jpg"
+                            src="/team/team3.jpg"
                             alt="Team Member 3"
                             className="w-32 h-32 mx-auto rounded-full object-cover mb-4"
                         />

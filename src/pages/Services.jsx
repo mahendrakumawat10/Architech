@@ -3,50 +3,50 @@ import React from 'react';
 const services = [
     {
         id: 1,
-        Image: '/public/services/architecture.jpg',
+        Image: '/services/architecture.jpg',
         title: 'Architectural Design',
         description: 'Innovative and functional building designs.',
 
     },
     {
         id: 2,
-        Image: '/public/services/interior.jpg',
+        Image: '/services/interior.jpg',
         title: 'Interior Design',
         description: 'Beautiful, functional interiors tailored to lifestyle.',
     },
     {
         id: 3,
-        Image: '/public/services/urban.jpg',
+        Image: '/services/urban.jpg',
         title: 'Urban Planning',
         description: 'Smart layouts for sustainable cities and communities.',
     },
     {
         id: 4,
-        Image: '/public/services/landscape.jpg',
+        Image: '/services/landscape.jpg',
         title: 'Landscape Architecture',
         description: 'Creating harmonious outdoor spaces that enhance nature.',
     },
     {
         id: 5,
-        Image: '/public/services/consulting.jpg',
+        Image: '/services/consulting.jpg',
         title: 'Consulting Services',
         description: 'Expert advice to guide your architectural projects.',
     },
     {
         id: 6,
-        Image: '/public/services/sustainability.jpg',
+        Image: '/services/sustainability.jpg',
         title: 'Sustainability Consulting',
         description: 'Implementing eco-friendly practices in design and construction.',
     },
     {
         id: 7,
-        Image: '/public/services/project-management.jpg',
+        Image: '/services/project-management.jpg',
         title: 'Project Management',
         description: 'Ensuring projects are delivered on time and within budget.',
     },
     {
         id: 8,
-        Image: '/public/services/renovation.jpg',
+        Image: '/services/renovation.jpg',
         title: 'Renovation Services',
         description: 'Transforming existing spaces into modern, functional areas.',
     },
