@@ -20,7 +20,7 @@ export default function Footer() {
 
                 {/* Links */}
                 <div>
-                    <h3 className="text-xl font-semibold mb-4">Quick Links</h3>
+                    <h3 className=" text-xl font-semibold mb-4">Quick Links</h3>
                     <ul className="text-gray-300">
                         <li><Link to="/" className="hover:text-white">Home</Link></li>
                         <li><Link to="/about" className="hover:text-white">About</Link></li>
