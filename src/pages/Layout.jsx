@@ -1,15 +1,23 @@
-import React from 'react'
-import NavBar from '../components/NavBar'
-import Footer from '../components/Footer'
-import { Outlet } from 'react-router-dom'
+import React, { useEffect } from 'react';
+import { Outlet, useLocation } from 'react-router-dom';
+import NavBar from '../components/NavBar';
+import Footer from '../components/Footer';
 
 export default function Layout() {
+  const location = useLocation();
+
+  useEffect(() => {
+    // Smooth scroll to top on every location change
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }, [location]);
+
   return (
     <>
-        <NavBar />
-        <div className="mt-16"><Outlet /></div>
-          
-        <Footer/>
+      <NavBar />
+      <div className="min-h-screen mt-16">
+        <Outlet key={location.pathname + location.search} />
+      </div>
+      <Footer />
     </>
-  )
+  );
 }
